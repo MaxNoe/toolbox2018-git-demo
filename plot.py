@@ -10,4 +10,7 @@ U = np.sin(5 * np.pi * t)
 plt.plot(t, U, 'r')
 plt.xlabel('t / s')
 plt.ylabel('U / V')
+
+
+plt.tight_layout()
 plt.savefig('build/plot.pdf')
