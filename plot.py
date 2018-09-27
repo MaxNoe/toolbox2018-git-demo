@@ -7,7 +7,7 @@ t = np.linspace(0, 3, 1000)
 
 U = np.sin(5 * np.pi * t)
 
-plt.plot(t, U, 'crimson', label="Spannung")
+plt.plot(t, U, '#FF5656', label="Spannung")
 plt.xlabel('t / s')
 plt.ylabel('U / V')
 plt.legend()
