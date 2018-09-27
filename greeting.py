@@ -2,6 +2,5 @@ def greeting(name="World"):
     print(f"Hello, {name}!")
 
 
-greeting("World")
-greeting("Joshua")
-greeting("PeP")
+for name in ["World", "Joshua", "PeP"]:
+    greeting(name)
